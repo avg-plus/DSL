@@ -1,1 +1,4 @@
 # DSL
+
+yarn
+yarn dev

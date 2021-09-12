@@ -1,0 +1,11 @@
+{
+  "name": "DSL",
+  "version": "1.0.0",
+  "repository": "git@github.com:avg-plus/DSL.git",
+  "author": "AngryPowman <powmanx2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": " tsc -p ./tsconfig.json -w",
+    "test": "node ./dist/test/dsl-test.js"
+  }
+}

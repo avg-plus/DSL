@@ -5,7 +5,8 @@
   "author": "AngryPowman <powmanx2@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": " tsc -p ./tsconfig.json -w",
+    "dev": "tsc -p ./tsconfig.json -w",
+    "build": "tsc -p ./tsconfig.json",
     "test": "node ./dist/test/dsl-test.js"
   }
 }
